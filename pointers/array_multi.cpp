@@ -37,6 +37,8 @@ int main()
     for(size_t i=0;i<m*n;i++)
         cout<<arr[i]<<" ";
 
+    delete [] arr;
+
     
     
 }
