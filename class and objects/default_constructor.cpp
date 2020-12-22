@@ -42,4 +42,6 @@ int main()
 
     hero = new Player{"abhi",110,3};
     cout<<hero->get_name();
+    
+    delete hero;
 }
